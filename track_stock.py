@@ -5,7 +5,7 @@ from google.cloud import bigquery
 from google.oauth2 import service_account 
 
 #Authentication
-key_path = "/home/om/Documents/Big_query/ncca-361107-9f401816514a.json" ##Replace with path to your service token file
+key_path = "/file.json" ##Replace with path to your service token file
 credentials = service_account.Credentials.from_service_account_file(
     key_path,
     scopes=["https://www.googleapis.com/auth/cloud-platform"],
